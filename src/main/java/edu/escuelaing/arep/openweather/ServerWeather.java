@@ -25,7 +25,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Miguel
+ * @author Miguel Fuquene
  */
 public class ServerWeather {
 
@@ -188,6 +188,7 @@ public class ServerWeather {
     }
 
     public static void main(String[] args) throws IOException {
+        //System.out.println("Hello World");
         ServerWeather.getInstance().start();
 
     }
